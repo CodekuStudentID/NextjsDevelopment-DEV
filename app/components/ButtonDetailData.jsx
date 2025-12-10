@@ -1,13 +1,12 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import users from '../lib/connectUsersDatabase';
 
 
 export default function ButtonDetailData({ id }) {
-    return (
-        <button className="btn btn-primary">
-            <Link href={`/dashboard/users/${id}`}>Detail data</Link>
-        </button>
-    )
+  return (
+    <Link href={`/api/users/${id}`}>
+      <button className="btn btn-primary">Detail data</button>
+    </Link>
+  );
 }
