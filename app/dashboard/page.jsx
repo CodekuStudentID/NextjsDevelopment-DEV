@@ -2,9 +2,9 @@
 
 import React from "react";
 import { useState, useEffect } from "react";
-import ButtonAddingData from "../components/ButtonAddingData";
-import ButtonDetailData from "../components/ButtonDetailData";
-import Loading from "../components/Loading";
+import ButtonAddingData from "../components/client/ButtonAddingData";
+import ButtonDetailData from "../components/client/ButtonDetailData";
+import Loading from "../components/client/Loading";
 import { Index } from "../services/userServices";
 
 export default function HomePage() {
